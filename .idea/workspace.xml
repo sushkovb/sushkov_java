@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eda4ffcf-902f-48df-bae3-9b1f9f0b0e7c" name="Changes" comment="added third task">
-      <change afterPath="$PROJECT_DIR$/task 4.txt" afterDir="false" />
+    <list default="true" id="eda4ffcf-902f-48df-bae3-9b1f9f0b0e7c" name="Changes" comment="added fourth task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669560579479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added fourth task">
+      <created>1669561647204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669561647204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +96,7 @@
     <MESSAGE value="added first task" />
     <MESSAGE value="added second task" />
     <MESSAGE value="added third task" />
-    <option name="LAST_COMMIT_MESSAGE" value="added third task" />
+    <MESSAGE value="added fourth task" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fourth task" />
   </component>
 </project>
