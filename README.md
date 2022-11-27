@@ -3,7 +3,6 @@
 Составить алгоритм: если введенное число больше 7, то вывести “Привет”
 
 ```yaml
-public class Main {
     public static void getNumber(int number) {
         if (number > 7) {
             System.out.println("Привет");
@@ -42,6 +41,7 @@ public class Main {
 ## Запуск 
 
 ```yaml
+public class Main {
 public static void main(String[] args) {
 
         Main.getNumber();
@@ -49,6 +49,7 @@ public static void main(String[] args) {
         Main.massiveOfNumbers();
 
     }
+}
 ```
 ## Задание 4
 
