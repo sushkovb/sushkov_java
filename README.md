@@ -3,11 +3,15 @@
 Составить алгоритм: если введенное число больше 7, то вывести “Привет”
 
 ```yaml
-    public static void getNumber(int number) {
-        if (number > 7) {
-            System.out.println("Привет");
-        }
-    }
+      public static void main(String[] args) {
+          Scanner scanner = new Scanner(System.in);
+          System.out.print("Введите число: ");
+          double number = scanner.nextDouble();
+
+          if (number > 7) {
+              System.out.println("Привет");
+          }
+      }
 ```
 ## Задание 2
 
@@ -15,8 +19,12 @@
 то вывести “Привет, Вячеслав”, если нет, то вывести "Нет такого имени"
 
 ```yaml
-    public static void name(String name) {
-        if (name == "Вячеслав") {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите имя: ");
+        String name = scanner.nextLine();
+
+        if (name.equals("Вячеслав")) {
             System.out.println("Привет, " + name);
         } else {
             System.out.println("Нет такого имени");
@@ -28,29 +36,27 @@
 Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
 
 ```yaml
-    public static void massiveOfNumbers() {
-        int numbers[]=new int[] {3, 4, 5, 6, 7, 8, 9, 21};
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int size = scanner.nextInt();
+        int[] inputArray = new int[size];
 
-        for (int i = 0; i < numbers[i]; i++)
-            if(numbers[i] % 3 == 0)
-
-                System.out.println(numbers[i]);
+        System.out.println("Элементы массива:");
+        for (int i = 0; i < size; i++) {
+            inputArray[i] = i + 1;
+            System.out.print(inputArray[i]+ " ");
+        }
+        System.out.println();
+        System.out.println("Элементы массива, кратные 3: ");
+        for (int j : inputArray) {
+            if (j % 3 == 0) {
+                System.out.print(j + " ");
+            }
+        }
     }
 ```
 
-## Запуск 
-
-```yaml
-public class Main {
-public static void main(String[] args) {
-
-        Main.getNumber();
-        Main.name();
-        Main.massiveOfNumbers();
-
-    }
-}
-```
 ## Задание 4
 
 Дана скобочная последовательность: [((())()(())]]
